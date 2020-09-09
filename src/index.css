@@ -132,35 +132,3 @@ textarea {
 textarea::-webkit-scrollbar {
   display: none;
 }
-
-.wra {
-  width: 100%;
-  overflow-x: hidden;
-  background: url(./assets/images/all/bg.png) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.container {
-  max-width: 1080px;
-  margin: auto;
-}
-
-.flex_box {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav {
-  display: flex;
-}
-.flex_box {
-  margin: 20px 0;
-}
-.nav button {
-  color: #fff;
-  letter-spacing: -0.32px;
-  line-height: 18px;
-  font-weight: bold;
-  padding: 0 20px;
-}

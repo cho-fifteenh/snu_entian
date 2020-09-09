@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <p style={FooterStyle}>
+    <p className="footer_text">
       Milestone for Residents
       <br />
       Copyright SNU-ENTian All rights reserved
@@ -10,12 +10,4 @@ const Footer = () => {
   );
 };
 
-const FooterStyle = {
-  color: "#fff",
-  fontSize: "16px",
-  lineHeight: "22px",
-  textAlign: "center",
-  opacity: "0.6",
-  margin: "auto auto 40px auto",
-};
 export default Footer;

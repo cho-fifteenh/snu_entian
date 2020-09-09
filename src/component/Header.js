@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <div className="flex_box">
+      <div className="header_flex">
         <Link to="/">
           <img
             src={require("../assets/images/all/sub_logo.png")} //이미지넣기
